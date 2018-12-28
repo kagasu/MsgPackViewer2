@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsgPackViewer2", "MsgPackViewer2\MsgPackViewer2.csproj", "{9096FC76-6E6F-4C1E-BA77-0BC1374B6362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9096FC76-6E6F-4C1E-BA77-0BC1374B6362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9096FC76-6E6F-4C1E-BA77-0BC1374B6362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9096FC76-6E6F-4C1E-BA77-0BC1374B6362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9096FC76-6E6F-4C1E-BA77-0BC1374B6362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA2983A2-E715-4BB4-AB51-C566054400A2}
+	EndGlobalSection
+EndGlobal
