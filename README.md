@@ -3,5 +3,5 @@
 
 ### Usage
 ```
-copy MsgPackViewer2.dll "%USERPROFILE%\My Documents\Fiddler2\Inspectors"
+copy MsgPackViewer2.dll "%USERPROFILE%\My Documents\Fiddler2\Inspectors\MsgPackViewer2.dll"
 ```
