@@ -68,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MiniMessagePacker.cs" />
+    <Compile Include="MsgPackBase64RequestView.cs" />
     <Compile Include="MsgPackRequestView.cs" />
     <Compile Include="MsgPackResponseView.cs" />
+    <Compile Include="MsgPackViewBaseBase64.cs" />
     <Compile Include="MsgPackViewBase.cs" />
     <Compile Include="MsgPackViewer2.cs">
       <SubType>UserControl</SubType>

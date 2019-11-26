@@ -5,7 +5,7 @@ using Fiddler;
 
 namespace MsgPackViewer2
 {
-    public abstract class MsgPackViewBase : Inspector2
+    public abstract class MsgPackViewBaseBase64 : Inspector2
     {
         private readonly MsgPackViewer2 _viewer = new MsgPackViewer2();
         private byte[] _decodedBody;
@@ -13,7 +13,7 @@ namespace MsgPackViewer2
 
         public override void AddToTab(TabPage o)
         {
-            o.Text = "MsgPack";
+            o.Text = "MsgPack(Base64)";
             o.Controls.Add(_viewer);
             _viewer.Dock = DockStyle.Fill;
         }
@@ -39,6 +39,7 @@ namespace MsgPackViewer2
         private void DisplayData()
         {
             _decodedBody = _body;
+            _decodedBody = Convert.FromBase64String(Encoding.UTF8.GetString(_decodedBody));
             Utilities.utilDecodeHTTPBody(GetHeaders(), ref _decodedBody);
 
             _viewer.DisplayData(_decodedBody);
