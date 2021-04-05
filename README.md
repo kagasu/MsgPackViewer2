@@ -5,7 +5,7 @@
 
 ### Usage
 ```
-copy MsgPackViewer2.dll "%USERPROFILE%\My Documents\Fiddler2\Inspectors\MsgPackViewer2.dll"
+copy MsgPackViewer2.dll "%USERPROFILE%\Documents\Fiddler2\Inspectors\MsgPackViewer2.dll"
 ```
 
 ### Requirements
